@@ -74,7 +74,7 @@ export const getChromiumProfiles = (filter: string[]) => {
         label: profileLabel,
         icon: browser.icon,
       })
-    );
+    });
 
     sortProfiles(browserProfiles);
 
