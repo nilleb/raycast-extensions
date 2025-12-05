@@ -73,7 +73,7 @@ export const getChromiumProfiles = (filter: string[]) => {
         uid: directory,
         label: profileLabel,
         icon: browser.icon,
-      })
+      });
     });
 
     sortProfiles(browserProfiles);
